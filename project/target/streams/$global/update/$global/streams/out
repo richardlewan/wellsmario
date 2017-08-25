@@ -14136,7 +14136,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1992ms :: artifacts dl 42ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2252ms :: artifacts dl 43ms[0m
 [0m[[0mdebug[0m] [0m	report for default#wellsmario-build;0.1-SNAPSHOT compile produced in /Users/rlewan/git/wellsmario/project/target/resolution-cache/reports/default-wellsmario-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#wellsmario-build;0.1-SNAPSHOT runtime produced in /Users/rlewan/git/wellsmario/project/target/resolution-cache/reports/default-wellsmario-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#wellsmario-build;0.1-SNAPSHOT test produced in /Users/rlewan/git/wellsmario/project/target/resolution-cache/reports/default-wellsmario-build-test.xml[0m
@@ -14150,5 +14150,5 @@
 [0m[[0mdebug[0m] [0m	report for default#wellsmario-build;0.1-SNAPSHOT docs produced in /Users/rlewan/git/wellsmario/project/target/resolution-cache/reports/default-wellsmario-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#wellsmario-build;0.1-SNAPSHOT pom produced in /Users/rlewan/git/wellsmario/project/target/resolution-cache/reports/default-wellsmario-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#wellsmario-build;0.1-SNAPSHOT scala-tool produced in /Users/rlewan/git/wellsmario/project/target/resolution-cache/reports/default-wellsmario-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1992ms resolve - 42ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (2252ms resolve - 43ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
