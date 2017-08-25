@@ -14,10 +14,10 @@
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
 [0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/rlewan/git/wellsmario/test/com/sofi/wealth/retirement/CalculatorTest.java)[0m
 [0m[[0minfo[0m] [0mCompiling 1 Java source to /Users/rlewan/git/wellsmario/target/scala-2.11/test-classes...[0m
-[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@3e412b42 directly...[0m
-[0m[[0mdebug[0m] [0mJava compilation took 0.577793101 s[0m
-[0m[[0mdebug[0m] [0mJava analysis took 0.070144275 s[0m
-[0m[[0mdebug[0m] [0mJava compile + analysis took 0.652445356 s[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@51ea0625 directly...[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.487457817 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.062692832 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 0.554088988 s[0m
 [0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
 [0m[[0mdebug[0m] [0m[naha] 	Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m

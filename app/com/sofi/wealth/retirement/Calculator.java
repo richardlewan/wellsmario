@@ -61,7 +61,7 @@ public class Calculator {
             }
             results.add(result);
             // Set the currentBalance to the year's end balance.
-            currentBalance = balanceAfterAnnualReturn;
+            currentBalance = balanceAfterReturnMinusExpensePlusContribution;
         }
     }
 

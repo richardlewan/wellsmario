@@ -63,19 +63,19 @@ public class CalculatorTest {
         Iterator<AnnualResult> iterator = results.iterator();
         AnnualResult firstYearResult = iterator.next();
         assertEquals(startingBalance, firstYearResult.getStartingBalance());
-        anticipatedEndingBalance = new Double(10700);
+        anticipatedEndingBalance = new Double(10692);
         assertEquals(anticipatedEndingBalance, firstYearResult.getEndingBalance());
         
         startingBalance = anticipatedEndingBalance; // set to ending balance from last year
         AnnualResult secondYearResult = iterator.next();
         assertEquals(startingBalance, secondYearResult.getStartingBalance());
-        anticipatedEndingBalance = new Double(11449);
+        anticipatedEndingBalance = new Double(11431.89);
         assertEquals(anticipatedEndingBalance, secondYearResult.getEndingBalance());
         
         startingBalance = anticipatedEndingBalance; // set to ending balance from last year
         AnnualResult thirdYearResult = iterator.next();
         assertEquals(startingBalance, thirdYearResult.getStartingBalance());
-        anticipatedEndingBalance = new Double(12250.43);
+        anticipatedEndingBalance = new Double(12222.98);
         assertEquals(anticipatedEndingBalance, thirdYearResult.getEndingBalance());
     }
     
@@ -105,7 +105,7 @@ public class CalculatorTest {
         startingBalance = anticipatedEndingBalance; 
         AnnualResult thirdYearResult = iterator.next();
         assertEquals(startingBalance, thirdYearResult.getStartingBalance());
-        anticipatedEndingBalance = new Double(12100.74);
+        anticipatedEndingBalance = new Double(12100.75);
         assertEquals(anticipatedEndingBalance, thirdYearResult.getEndingBalance());
     }
     
@@ -123,19 +123,19 @@ public class CalculatorTest {
         Iterator<AnnualResult> iterator = results.iterator();
         AnnualResult firstYearResult = iterator.next();
         assertEquals(startingBalance, firstYearResult.getStartingBalance());
-        anticipatedEndingBalance = new Double(10593);
+        anticipatedEndingBalance = new Double(16525.08);
         assertEquals(anticipatedEndingBalance, firstYearResult.getEndingBalance());
         
         startingBalance = anticipatedEndingBalance; 
         AnnualResult secondYearResult = iterator.next();
         assertEquals(startingBalance, secondYearResult.getStartingBalance());
-        anticipatedEndingBalance = new Double(11334.51);
+        anticipatedEndingBalance = new Double(23608.62);
         assertEquals(anticipatedEndingBalance, secondYearResult.getEndingBalance());
         
         startingBalance = anticipatedEndingBalance; 
         AnnualResult thirdYearResult = iterator.next();
         assertEquals(startingBalance, thirdYearResult.getStartingBalance());
-        anticipatedEndingBalance = new Double(12127.93);
+        anticipatedEndingBalance = new Double(31182.34);
         assertEquals(anticipatedEndingBalance, thirdYearResult.getEndingBalance());
     }
     
