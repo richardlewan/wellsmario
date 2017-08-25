@@ -5,10 +5,10 @@ import java.util.Objects;
 public class AnnualResult implements Comparable<AnnualResult> {
 
     private Integer year;
-    private double startingBalance;
-    private double endingBalance;
+    private Double startingBalance;
+    private Double endingBalance;
     
-    public AnnualResult(int year, double startingBalance, double endingBalance) {
+    public AnnualResult(int year, Double startingBalance, Double endingBalance) {
         super();
         this.year = year;
         this.startingBalance = startingBalance;
@@ -23,19 +23,19 @@ public class AnnualResult implements Comparable<AnnualResult> {
         this.year = year;
     }
     
-    public double getStartingBalance() {
+    public Double getStartingBalance() {
         return startingBalance;
     }
     
-    public void setStartingBalance(double startingBalance) {
+    public void setStartingBalance(Double startingBalance) {
         this.startingBalance = startingBalance;
     }
     
-    public double getEndingBalance() {
+    public Double getEndingBalance() {
         return endingBalance;
     }
     
-    public void setEndingBalance(double endingBalance) {
+    public void setEndingBalance(Double endingBalance) {
         this.endingBalance = endingBalance;
     }
     

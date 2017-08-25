@@ -8,7 +8,7 @@ import java.util.List;
 
 import static com.sofi.wealth.retirement.BigUtil.*;
 
-public abstract class Calculator {
+public class Calculator {
 
     // Constants
     private static final int STARTING_YEAR = LocalDate.now().getYear();
@@ -46,15 +46,22 @@ public abstract class Calculator {
         } else {
             annualContributionAfterLoad = roundMoney(annualContributionBeforeLoad.multiply(BigDecimal.ONE.subtract(this.frontLoad)));
         }
-        returnAfterExpenses = ASSUMED_MARKET_RETURN.subtract(annualExpenseRatio);
         
         // Build up the subsequent AnnualResult objects
-        BigDecimal currentBalance = startingBalance;
+        BigDecimal currentBalance = roundMoney(startingBalance.multiply(BigDecimal.ONE.subtract(frontLoad)));
         for (int year = STARTING_YEAR; year < endingYear; year++) {
-            final BigDecimal principalAmount = currentBalance.add(annualContributionAfterLoad);
-            final BigDecimal balanceAfterAnnualReturn = roundMoney(principalAmount.multiply(BigDecimal.ONE.add(returnAfterExpenses)));
-            AnnualResult result = new AnnualResult(year, currentBalance.doubleValue(), balanceAfterAnnualReturn.doubleValue());
+            final BigDecimal balanceAfterAnnualReturn = roundCalc(currentBalance.multiply(BigDecimal.ONE.add(ASSUMED_MARKET_RETURN)));
+            final BigDecimal balanceAfterAnnualReturnMinusExpenseRatio = roundMoney(balanceAfterAnnualReturn.multiply(BigDecimal.ONE.subtract(annualExpenseRatio)));
+            final BigDecimal balanceAfterReturnMinusExpensePlusContribution = balanceAfterAnnualReturnMinusExpenseRatio.add(annualContributionAfterLoad);
+            AnnualResult result = null;
+            if (year == STARTING_YEAR) {
+                result = new AnnualResult(year, startingBalance.doubleValue(), balanceAfterReturnMinusExpensePlusContribution.doubleValue());
+            } else {
+                result = new AnnualResult(year, currentBalance.doubleValue(), balanceAfterReturnMinusExpensePlusContribution.doubleValue());
+            }
             results.add(result);
+            // Set the currentBalance to the year's end balance.
+            currentBalance = balanceAfterAnnualReturn;
         }
     }
 
