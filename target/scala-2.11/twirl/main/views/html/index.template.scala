@@ -21,34 +21,39 @@ import play.data._
 import play.api.data.Field
 import play.mvc.Http.Context.Implicit._
 
-class index extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template1[String,play.twirl.api.HtmlFormat.Appendable] {
+class index extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template0[play.twirl.api.HtmlFormat.Appendable] {
 
-  /*
- * This template takes a single argument, a String containing a
- * message to display.
- */
-  def apply/*5.2*/(message: String):play.twirl.api.HtmlFormat.Appendable = {
+  /**/
+  def apply/*1.2*/():play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
 
 
-Seq[Any](format.raw/*5.19*/("""
+Seq[Any](format.raw/*1.4*/("""
 
-"""),format.raw/*11.4*/("""
-"""),_display_(/*12.2*/main("Welcome to Play")/*12.25*/ {_display_(Seq[Any](format.raw/*12.27*/("""
+"""),format.raw/*7.4*/("""
 
-    """),format.raw/*17.8*/("""
-    """),_display_(/*18.6*/play20/*18.12*/.welcome(message, style = "Java")),format.raw/*18.45*/("""
 
-""")))}),format.raw/*20.2*/("""
+
+"""),_display_(/*11.2*/main("Retirement Robbery")/*11.28*/ {_display_(Seq[Any](format.raw/*11.30*/("""
+"""),format.raw/*12.1*/("""<script type="text/javascript" src=""""),_display_(/*12.38*/routes/*12.44*/.Assets.versioned("/javascripts/jquery-2.2.0.min.js")),format.raw/*12.97*/(""""></script>
+<script type='text/javascript' src='"""),_display_(/*13.38*/routes/*13.44*/.Assets.versioned("javascripts/app.js")),format.raw/*13.83*/("""'></script>
+
+<ul id="results"></ul>
+
+""")))}),format.raw/*17.2*/("""
+
+
+
+
 """))
       }
     }
   }
 
-  def render(message:String): play.twirl.api.HtmlFormat.Appendable = apply(message)
+  def render(): play.twirl.api.HtmlFormat.Appendable = apply()
 
-  def f:((String) => play.twirl.api.HtmlFormat.Appendable) = (message) => apply(message)
+  def f:(() => play.twirl.api.HtmlFormat.Appendable) = () => apply()
 
   def ref: this.type = this
 
@@ -57,18 +62,15 @@ Seq[Any](format.raw/*5.19*/("""
 
 }
 
-/*
- * This template takes a single argument, a String containing a
- * message to display.
- */
+/**/
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Fri Aug 25 09:30:09 MDT 2017
-                  SOURCE: /Users/rlewan/git/wellsmario/app/views/index.scala.html
-                  HASH: c00f1c05d68754c3b12a2a3ffaafe456cbad7d39
-                  MATRIX: 834->95|946->112|975->308|1003->310|1035->333|1075->335|1108->464|1140->470|1155->476|1209->509|1242->512
-                  LINES: 30->5|35->5|37->11|38->12|38->12|38->12|40->17|41->18|41->18|41->18|43->20
+                  DATE: Fri Aug 25 15:33:06 MDT 2017
+                  SOURCE: /Users/sbejjanki/git/wellsmario/app/views/index.scala.html
+                  HASH: 25bda27c1bd97dfb19a6c67771a1dbcb3315c20f
+                  MATRIX: 738->1|834->3|862->199|893->204|928->230|968->232|996->233|1060->270|1075->276|1149->329|1225->378|1240->384|1300->423|1368->461
+                  LINES: 27->1|32->1|34->7|38->11|38->11|38->11|39->12|39->12|39->12|39->12|40->13|40->13|40->13|44->17
                   -- GENERATED --
               */
           

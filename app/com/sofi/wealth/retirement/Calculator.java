@@ -11,19 +11,19 @@ import static com.sofi.wealth.retirement.BigUtil.*;
 public class Calculator {
 
     // Constants
-    private static final int STARTING_YEAR = LocalDate.now().getYear();
+    public static final int STARTING_YEAR = LocalDate.now().getYear();
     private static final BigDecimal ASSUMED_MARKET_RETURN = BigDecimal.valueOf(0.08); // 8% long term average
-    
+
     final private int endingYear;
     final private BigDecimal frontLoad;
     final private BigDecimal annualExpenseRatio;
     final private BigDecimal startingBalance;
     final private BigDecimal monthlyContribution;
-    
+
     private BigDecimal returnAfterExpenses;
     private BigDecimal annualContributionBeforeLoad;
     private BigDecimal annualContributionAfterLoad;
-    
+
     private List<AnnualResult> results = new LinkedList<>();
 
     public Calculator(int numberOfYears, double frontLoad, double annualExpenseRatio, double startingBalance,
@@ -34,10 +34,10 @@ public class Calculator {
         this.annualExpenseRatio = BigDecimal.valueOf(annualExpenseRatio);
         this.startingBalance = BigDecimal.valueOf(startingBalance);
         this.monthlyContribution = BigDecimal.valueOf(monthlyContribution);
-        
+
         calculateResults();
     }
-    
+
     private void calculateResults() {
         // Calculate things needed to calculate other things
         annualContributionBeforeLoad = roundCalc(monthlyContribution.multiply(BigDecimal.valueOf(12)));
@@ -46,7 +46,7 @@ public class Calculator {
         } else {
             annualContributionAfterLoad = roundMoney(annualContributionBeforeLoad.multiply(BigDecimal.ONE.subtract(this.frontLoad)));
         }
-        
+
         // Build up the subsequent AnnualResult objects
         BigDecimal currentBalance = roundMoney(startingBalance.multiply(BigDecimal.ONE.subtract(frontLoad)));
         for (int year = STARTING_YEAR; year < endingYear; year++) {
@@ -77,5 +77,5 @@ public class Calculator {
     public BigDecimal getAnnualContributionAfterLoad() {
         return annualContributionAfterLoad;
     }
-    
+
 }
