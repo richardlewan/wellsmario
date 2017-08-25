@@ -43,11 +43,13 @@ Seq[Any](format.raw/*7.32*/("""
         """),format.raw/*13.9*/("""<title>"""),_display_(/*13.17*/title),format.raw/*13.22*/("""</title>
         <link rel="stylesheet" media="screen" href=""""),_display_(/*14.54*/routes/*14.60*/.Assets.versioned("stylesheets/main.css")),format.raw/*14.101*/("""">
         <link rel="shortcut icon" type="image/png" href=""""),_display_(/*15.59*/routes/*15.65*/.Assets.versioned("images/favicon.png")),format.raw/*15.104*/("""">
+        <script type="text/javascript" src=""""),_display_(/*16.46*/routes/*16.52*/.Assets.versioned("/javascripts/jquery-2.2.0.min.js")),format.raw/*16.105*/(""""></script>
+		<script type='text/javascript' src='"""),_display_(/*17.40*/routes/*17.46*/.Assets.versioned("javascripts/app.js")),format.raw/*17.85*/("""'></script>
     </head>
     <body>
-        """),format.raw/*19.32*/("""
-        """),_display_(/*20.10*/content),format.raw/*20.17*/("""
-    """),format.raw/*21.5*/("""</body>
+        """),format.raw/*21.32*/("""
+        """),_display_(/*22.10*/content),format.raw/*22.17*/("""
+    """),format.raw/*23.5*/("""</body>
 </html>
 """))
       }
@@ -74,11 +76,11 @@ Seq[Any](format.raw/*7.32*/("""
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Fri Aug 25 15:45:48 MDT 2017
+                  DATE: Fri Aug 25 16:10:38 MDT 2017
                   SOURCE: /Users/sbejjanki/git/wellsmario/app/views/main.scala.html
-                  HASH: 2c2532ed6dbee019473f6fef3626a0f49697047c
-                  MATRIX: 1002->260|1127->290|1155->292|1235->397|1271->406|1306->414|1332->419|1421->481|1436->487|1499->528|1587->589|1602->595|1663->634|1725->758|1762->768|1790->775|1822->780
-                  LINES: 32->7|37->7|39->9|42->12|43->13|43->13|43->13|44->14|44->14|44->14|45->15|45->15|45->15|48->19|49->20|49->20|50->21
+                  HASH: d462662a45d83d5af38e587c9e046a84c17fa2d5
+                  MATRIX: 1002->260|1127->290|1155->292|1235->397|1271->406|1306->414|1332->419|1421->481|1436->487|1499->528|1587->589|1602->595|1663->634|1738->682|1753->688|1828->741|1906->792|1921->798|1981->837|2052->970|2089->980|2117->987|2149->992
+                  LINES: 32->7|37->7|39->9|42->12|43->13|43->13|43->13|44->14|44->14|44->14|45->15|45->15|45->15|46->16|46->16|46->16|47->17|47->17|47->17|50->21|51->22|51->22|52->23
                   -- GENERATED --
               */
           
