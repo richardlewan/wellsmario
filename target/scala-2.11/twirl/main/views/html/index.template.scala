@@ -33,15 +33,14 @@ Seq[Any](format.raw/*1.4*/("""
 
 """),format.raw/*7.4*/("""
 
-
-
-"""),_display_(/*11.2*/main("Retirement Robbery")/*11.28*/ {_display_(Seq[Any](format.raw/*11.30*/("""
-
-"""),format.raw/*13.1*/("""<h1 align="center">Retirement Robbery: Wells Fargo vs. SoFi Wealth</h2>
+"""),_display_(/*9.2*/main("Retirement Robbery")/*9.28*/ {_display_(Seq[Any](format.raw/*9.30*/("""
+"""),format.raw/*10.1*/("""<h1 align="center">Retirement Robbery: Wells Fargo vs. SoFi Wealth</h2>
 <table id="results" align="center" cellpadding="10"  border="1"></table>
 <br>
-<p id="finalResult" align="center" bgcolor="#fafc79"></p>
-""")))}),format.raw/*17.2*/("""
+<div align="center">
+<span id="finalResult"></span>
+</div>
+""")))}),format.raw/*16.2*/("""
 
 
 
@@ -66,11 +65,11 @@ Seq[Any](format.raw/*1.4*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Mon Aug 28 11:10:34 MDT 2017
+                  DATE: Mon Aug 28 13:12:00 MDT 2017
                   SOURCE: /Users/sbejjanki/git/wellsmario/app/views/index.scala.html
-                  HASH: 675d54888435a857633335735b6ae962c7785f70
-                  MATRIX: 738->1|834->3|862->199|893->204|928->230|968->232|997->234|1236->443
-                  LINES: 27->1|32->1|34->7|38->11|38->11|38->11|40->13|44->17
+                  HASH: 17f6f603966e5b90e84e3a60846120dbe72060bd
+                  MATRIX: 738->1|834->3|862->199|890->202|924->228|963->230|991->231|1231->441
+                  LINES: 27->1|32->1|34->7|36->9|36->9|36->9|37->10|43->16
                   -- GENERATED --
               */
           
