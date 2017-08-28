@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/Users/rlewan/git/wellsmario/conf/routes
-// @DATE:Mon Aug 28 09:19:18 MDT 2017
+// @SOURCE:/Users/sbejjanki/git/wellsmario/conf/routes
+// @DATE:Mon Aug 28 11:13:33 MDT 2017
 
 
 package router {

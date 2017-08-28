@@ -8,7 +8,7 @@ $( document ).ready(function() {
 		  			var wellsTotal = 0.0;
 		  			var sofiTotal = 0.0;
 		  			var diff = 0.0;
-		  			table.append("<tr><th>Year</th><th>Balance(Wells)</th><th>Balance(SOFI)</th><</tr>");
+		  			table.append("<tr><th>Year</th><th>Balance(Wells)</th><th>Balance(SoFi)</th><</tr>");
 		  			 $.each(data, function(key, val) {
 		  				 wellsTotal = val.wellsBalance;
 		  				 sofiTotal = val.sofiBalance;
@@ -19,8 +19,7 @@ $( document ).ready(function() {
 		  			table.append("<tr><td>" + val.year+ "</td><td> $" + wells + "</td> <td>$" + sofi + "</td></tr><br />");
 		  			 });
 		  			 diff = sofiTotal - wellsTotal;
-
-		  			 diff = diff.toFixed(2);
+		  			 diff = diff.toLocaleString('en');
 
 		  			 $("#finalResult").append("<b>You lost this much with Wells Fargo: &nbsp;&nbsp; $" + diff + "");
 		  			 $("#finalResult").css("background-color", "#fbff8e");

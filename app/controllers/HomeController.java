@@ -33,6 +33,10 @@ public class HomeController extends Controller {
         return ok(views.html.index.render());
     }
 
+    public Result intro() {
+        return ok(views.html.intro.render());
+    }
+
     public Result calc() {
          input = formFactory.form(InputForm.class).bindFromRequest().get();
          System.out.println("Years from the input is: " + input.getYears());

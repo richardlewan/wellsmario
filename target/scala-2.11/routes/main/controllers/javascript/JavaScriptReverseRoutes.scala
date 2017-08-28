@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/Users/rlewan/git/wellsmario/conf/routes
-// @DATE:Mon Aug 28 09:19:18 MDT 2017
+// @SOURCE:/Users/sbejjanki/git/wellsmario/conf/routes
+// @DATE:Mon Aug 28 11:13:33 MDT 2017
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -23,7 +23,17 @@ package controllers.javascript {
     }
 
   
-    // @LINE:9
+    // @LINE:8
+    def intro: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.intro",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + """"})
+        }
+      """
+    )
+  
+    // @LINE:10
     def calc: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.calc",
       """
@@ -33,7 +43,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:10
+    // @LINE:11
     def getResults: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.getResults",
       """
@@ -53,19 +63,19 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:8
+    // @LINE:9
     def login: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.login",
       """
         function() {
-          return _wA({method:"GET", url:"""" + _prefix + """"})
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "login"})
         }
       """
     )
   
   }
 
-  // @LINE:13
+  // @LINE:14
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -73,7 +83,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:13
+    // @LINE:14
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
