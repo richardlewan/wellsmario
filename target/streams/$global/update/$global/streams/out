@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/sbejjanki/git/wellsmario/}root...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/rlewan/git/wellsmario/}root...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: wells-mario#wells-mario_2.11;1.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for wells-mario#wells-mario_2.11;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies wells-mario#wells-mario_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a839c37[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a65a275[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
@@ -723,16 +723,16 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.reflections#reflections;0.9.10[0m
 [0m[[0mdebug[0m] [0m	found org.reflections#reflections;0.9.10 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [compile->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [runtime->compile][0m
@@ -750,6 +750,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.guava#guava;19.0[0m
 [0m[[0mdebug[0m] [0m	found com.google.guava#guava;19.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.google.guava#guava;19.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.google.guava#guava;19.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.google.guava#guava;19.0 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.google.guava#guava;19.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.google.code.findbugs#jsr305;3.0.1 [compile->master(compile)][0m
@@ -1019,8 +1020,8 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.googlecode.usc#jdbcdslog;1.0.6.2[0m
 [0m[[0mdebug[0m] [0m	found com.googlecode.usc#jdbcdslog;1.0.6.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.googlecode.usc#jdbcdslog;1.0.6.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.h2database#h2;1.4.192 [compile->master(compile)][0m
@@ -1195,6 +1196,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.javassist#javassist;3.20.0-GA[0m
 [0m[[0mdebug[0m] [0m	found org.javassist#javassist;3.20.0-GA in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.asynchttpclient#async-http-client;2.0.11->org.javassist#javassist;3.20.0-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.asynchttpclient#async-http-client;2.0.11->org.javassist#javassist;3.20.0-GA [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.asynchttpclient#async-http-client;2.0.11->org.javassist#javassist;3.20.0-GA [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.asynchttpclient#async-http-client;2.0.11->org.javassist#javassist;3.20.0-GA [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.asynchttpclient#async-http-client;2.0.11->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)][0m
@@ -1243,8 +1245,8 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: oauth.signpost#signpost-core;1.2.1.2[0m
 [0m[[0mdebug[0m] [0m	found oauth.signpost#signpost-core;1.2.1.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [compile->runtime(*)][0m
@@ -1258,30 +1260,30 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: oauth.signpost#signpost-commonshttp4;1.2.1.2[0m
 [0m[[0mdebug[0m] [0m	found oauth.signpost#signpost-commonshttp4;1.2.1.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.0.1[0m
 [0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpcore;4.0.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.0.1[0m
 [0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpclient;4.0.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1[0m
 [0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.1.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->runtime(*)][0m
@@ -1797,14 +1799,14 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.2.7.RELEASE {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->net.jodah#typetools;0.4.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->net.jodah#typetools;0.4.4 [compile->compile(*)][0m
@@ -1846,7 +1848,7 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.2.7.RELEASE {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [runtime->compile][0m
@@ -1999,8 +2001,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.zaxxer#HikariCP;2.5.1->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.googlecode.usc#jdbcdslog;1.0.6.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.googlecode.usc#jdbcdslog;1.0.6.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.h2database#h2;1.4.192 [compile->master(compile)][0m
@@ -2129,24 +2131,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.asynchttpclient#async-http-client;2.0.11->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [compile->master(compile)][0m
@@ -2698,14 +2700,14 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.2.7.RELEASE {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->net.jodah#typetools;0.4.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->net.jodah#typetools;0.4.4 [compile->compile(*)][0m
@@ -2747,7 +2749,7 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.2.7.RELEASE {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [runtime->compile][0m
@@ -2900,8 +2902,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.zaxxer#HikariCP;2.5.1->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.googlecode.usc#jdbcdslog;1.0.6.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.googlecode.usc#jdbcdslog;1.0.6.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.h2database#h2;1.4.192 [compile->master(compile)][0m
@@ -3030,24 +3032,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.asynchttpclient#async-http-client;2.0.11->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [compile->master(compile)][0m
@@ -3160,9 +3162,9 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: junit#junit;4.12[0m
 [0m[[0mdebug[0m] [0m	found junit#junit;4.12 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->junit#junit;4.12 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3[0m
 [0m[[0mdebug[0m] [0m	found org.hamcrest#hamcrest-core;1.3 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [compile->compile(*)][0m
@@ -3176,13 +3178,13 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.novocode#junit-interface;0.11[0m
 [0m[[0mdebug[0m] [0m	found com.novocode#junit-interface;0.11 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->com.novocode#junit-interface;0.11 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.11 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.12 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.11 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.12 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.11 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.12 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#test-interface;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#test-interface;1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0[0m
 [0m[[0mdebug[0m] [0m	found org.scala-sbt#test-interface;1.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
@@ -3227,28 +3229,29 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.5.2[0m
 [0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpclient;4.5.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.httpcomponents#httpclient;4.5.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->org.apache.httpcomponents#httpcore;4.4.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->org.apache.httpcomponents#httpcore;4.4.4 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.4.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.4.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.4.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.4.4[0m
 [0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpcore;4.4.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->org.apache.httpcomponents#httpcore;4.4.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->org.apache.httpcomponents#httpcore;4.4.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->org.apache.httpcomponents#httpcore;4.4.4 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->org.apache.httpcomponents#httpcore;4.4.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->org.apache.httpcomponents#httpcore;4.4.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.2[0m
 [0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.2 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.9 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.9 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.httpcomponents#httpclient;4.5.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.httpcomponents#httpclient;4.5.2 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.httpcomponents#httpclient;4.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->org.apache.httpcomponents#httpcore;4.4.4 [runtime->runtime(*)][0m
@@ -3264,7 +3267,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.5.2[0m
 [0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpmime;4.5.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.httpcomponents#httpmime;4.5.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpmime;4.5.2->org.apache.httpcomponents#httpclient;4.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpmime;4.5.2->org.apache.httpcomponents#httpclient;4.5.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpmime;4.5.2->org.apache.httpcomponents#httpclient;4.5.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
@@ -3282,7 +3285,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.22[0m
 [0m[[0mdebug[0m] [0m	found net.sourceforge.nekohtml#nekohtml;1.9.22 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->net.sourceforge.nekohtml#nekohtml;1.9.22 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: xerces#xercesImpl;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xerces#xercesImpl;2.11.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->net.sourceforge.cssparser#cssparser;0.9.18 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.sourceforge.cssparser#cssparser;0.9.18 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.sourceforge.cssparser#cssparser;0.9.18 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -3309,35 +3312,35 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-util;9.2.15.v20160210 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-util;9.2.15.v20160210 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-util;9.2.15.v20160210 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;9.2.15.v20160210[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-util;9.2.15.v20160210 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-io;9.2.15.v20160210 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-io;9.2.15.v20160210 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-io;9.2.15.v20160210 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;9.2.15.v20160210[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-io;9.2.15.v20160210 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 {compile=[compile(*), master(compile)], runtime=[runtime(*)], test=[runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->net.sourceforge.htmlunit#htmlunit;2.20 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->net.sourceforge.htmlunit#htmlunit;2.20 [compile->compile][0m
@@ -3364,7 +3367,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->xerces#xercesImpl;2.11.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->net.sourceforge.nekohtml#nekohtml;1.9.22 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->net.sourceforge.nekohtml#nekohtml;1.9.22 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: xerces#xercesImpl;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xerces#xercesImpl;2.11.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->net.sourceforge.cssparser#cssparser;0.9.18 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->net.sourceforge.cssparser#cssparser;0.9.18 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.cssparser#cssparser;0.9.18->org.w3c.css#sac;1.3 [runtime->runtime(*)][0m
@@ -3541,9 +3544,9 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webbitserver#webbit;0.4.14[0m
 [0m[[0mdebug[0m] [0m	found org.webbitserver#webbit;0.4.14 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-safari-driver;2.48.2->org.webbitserver#webbit;0.4.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving io.netty#netty;3.5.2.Final ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.netty#netty;3.5.2.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.netty#netty;3.5.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.netty#netty;3.5.2.Final[0m
 [0m[[0mdebug[0m] [0m	found io.netty#netty;3.5.2.Final in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->compile(*)][0m
@@ -4125,14 +4128,14 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.2.7.RELEASE {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->net.jodah#typetools;0.4.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->net.jodah#typetools;0.4.4 [compile->compile(*)][0m
@@ -4174,7 +4177,7 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.2.7.RELEASE {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [runtime->compile][0m
@@ -4327,8 +4330,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.zaxxer#HikariCP;2.5.1->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.googlecode.usc#jdbcdslog;1.0.6.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.googlecode.usc#jdbcdslog;1.0.6.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.h2database#h2;1.4.192 [compile->master(compile)][0m
@@ -4457,24 +4460,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.asynchttpclient#async-http-client;2.0.11->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [compile->master(compile)][0m
@@ -5028,14 +5031,14 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.2.7.RELEASE {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->net.jodah#typetools;0.4.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->net.jodah#typetools;0.4.4 [compile->compile(*)][0m
@@ -5077,7 +5080,7 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.2.7.RELEASE {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [runtime->compile][0m
@@ -5230,8 +5233,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.zaxxer#HikariCP;2.5.1->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.googlecode.usc#jdbcdslog;1.0.6.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.googlecode.usc#jdbcdslog;1.0.6.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.h2database#h2;1.4.192 [compile->master(compile)][0m
@@ -5360,24 +5363,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.asynchttpclient#async-http-client;2.0.11->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [compile->master(compile)][0m
@@ -5931,14 +5934,14 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.2.7.RELEASE {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->net.jodah#typetools;0.4.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->net.jodah#typetools;0.4.4 [compile->compile(*)][0m
@@ -5980,7 +5983,7 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.2.7.RELEASE {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.reflections#reflections;0.9.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;18.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.reflections#reflections;0.9.10->com.google.guava#guava;19.0 [runtime->compile][0m
@@ -6133,8 +6136,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.zaxxer#HikariCP;2.5.1->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.googlecode.usc#jdbcdslog;1.0.6.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.googlecode.usc#jdbcdslog;1.0.6.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.5.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.usc#jdbcdslog;1.0.6.2->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.h2database#h2;1.4.192 [compile->master(compile)][0m
@@ -6263,24 +6266,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.asynchttpclient#async-http-client;2.0.11->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [compile->master(compile)][0m
@@ -6383,15 +6386,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->junit#junit;4.12 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->junit#junit;4.12 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->com.novocode#junit-interface;0.11 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->com.novocode#junit-interface;0.11 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.11 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.12 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.11 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.12 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.11 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.12 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->com.google.guava#guava;19.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->com.google.guava#guava;19.0 [compile->compile(*)][0m
@@ -6411,17 +6414,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.commons#commons-lang3;3.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.httpcomponents#httpclient;4.5.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.httpcomponents#httpclient;4.5.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->org.apache.httpcomponents#httpcore;4.4.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->org.apache.httpcomponents#httpcore;4.4.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->org.apache.httpcomponents#httpcore;4.4.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.9 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.9 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.httpcomponents#httpmime;4.5.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.httpcomponents#httpmime;4.5.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpmime;4.5.2->org.apache.httpcomponents#httpclient;4.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpmime;4.5.2->org.apache.httpcomponents#httpclient;4.5.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpmime;4.5.2->org.apache.httpcomponents#httpclient;4.5.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
@@ -6431,7 +6434,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->xerces#xercesImpl;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->net.sourceforge.nekohtml#nekohtml;1.9.22 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->net.sourceforge.nekohtml#nekohtml;1.9.22 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: xerces#xercesImpl;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xerces#xercesImpl;2.11.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->net.sourceforge.cssparser#cssparser;0.9.18 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->net.sourceforge.cssparser#cssparser;0.9.18 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.cssparser#cssparser;0.9.18->org.w3c.css#sac;1.3 [compile->master(compile)][0m
@@ -6442,19 +6445,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210->org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->org.fluentlenium#fluentlenium-core;0.10.9 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->org.fluentlenium#fluentlenium-core;0.10.9 [compile->compile(*)][0m
@@ -6540,7 +6543,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-safari-driver;2.48.2->org.seleniumhq.selenium#selenium-remote-driver;2.48.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-safari-driver;2.48.2->org.webbitserver#webbit;0.4.14 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-safari-driver;2.48.2->org.webbitserver#webbit;0.4.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.48.2->org.seleniumhq.selenium#selenium-support;2.48.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.48.2->org.seleniumhq.selenium#selenium-support;2.48.2 [compile->compile(*)][0m
@@ -6601,7 +6604,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->xerces#xercesImpl;2.11.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->net.sourceforge.nekohtml#nekohtml;1.9.22 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->net.sourceforge.nekohtml#nekohtml;1.9.22 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: xerces#xercesImpl;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xerces#xercesImpl;2.11.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->net.sourceforge.cssparser#cssparser;0.9.18 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->net.sourceforge.cssparser#cssparser;0.9.18 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.cssparser#cssparser;0.9.18->org.w3c.css#sac;1.3 [runtime->runtime(*)][0m
@@ -7543,19 +7546,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1060ms :: artifacts dl 37ms[0m
-[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT compile produced in /Users/sbejjanki/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT runtime produced in /Users/sbejjanki/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT test produced in /Users/sbejjanki/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT provided produced in /Users/sbejjanki/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT optional produced in /Users/sbejjanki/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT compile-internal produced in /Users/sbejjanki/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT runtime-internal produced in /Users/sbejjanki/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT test-internal produced in /Users/sbejjanki/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT plugin produced in /Users/sbejjanki/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT sources produced in /Users/sbejjanki/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT docs produced in /Users/sbejjanki/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT pom produced in /Users/sbejjanki/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT scala-tool produced in /Users/sbejjanki/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1060ms resolve - 37ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1205ms :: artifacts dl 72ms[0m
+[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT compile produced in /Users/rlewan/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT runtime produced in /Users/rlewan/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT test produced in /Users/rlewan/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT provided produced in /Users/rlewan/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT optional produced in /Users/rlewan/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT compile-internal produced in /Users/rlewan/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT runtime-internal produced in /Users/rlewan/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT test-internal produced in /Users/rlewan/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT plugin produced in /Users/rlewan/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT sources produced in /Users/rlewan/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT docs produced in /Users/rlewan/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT pom produced in /Users/rlewan/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for wells-mario#wells-mario_2.11;1.0-SNAPSHOT scala-tool produced in /Users/rlewan/git/wellsmario/target/resolution-cache/reports/wells-mario-wells-mario_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1205ms resolve - 72ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
